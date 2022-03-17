@@ -86,3 +86,16 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
