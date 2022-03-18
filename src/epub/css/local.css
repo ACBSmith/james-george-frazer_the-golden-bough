@@ -99,3 +99,7 @@ footer{
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
+
+blockquote{
+	font-style: italic;
+}
