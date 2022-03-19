@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes-3.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>Some Dutch journal titles include a hyphen followed by a space.</reason>
+		</ignore>
+		<ignore>
+			<code>s-094</code>
+			<reason>Since there is no ToC yet the endnotes don't have an order.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
