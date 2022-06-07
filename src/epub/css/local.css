@@ -87,10 +87,12 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+/* Preface signing footer */
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
+/* End preface signing footer */
 
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
