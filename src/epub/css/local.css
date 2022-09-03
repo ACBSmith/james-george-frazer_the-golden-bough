@@ -87,6 +87,15 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+/* Epigraphs in section headers */
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+
+/* End epigraphs in section headers*/
+
+
 /* Preface signing footer */
 footer{
 	margin-top: 1em;
