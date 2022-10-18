@@ -87,6 +87,13 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+/* Epigraphs in section headers */
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+
+/* End epigraphs in section headers*/
 #chapter-3-8 header,
 #chapter-1-1 cite{
 	font-variant: small-caps;
@@ -116,13 +123,29 @@ p span.i1{
 	text-indent: -1em;
 }
 
-/* Letter */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
+/* Preface signing footer */
 
 footer{
 	margin-top: 1em;
+	text-align: right;
+}
+
+/* End preface signing footer */
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
+blockquote{
+	font-style: italic;
+}
+
+/* Letter */
+[epub|type~="z3998:letter"] header{
 	text-align: right;
 }
 
